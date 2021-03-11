@@ -478,5 +478,5 @@ for p in range(n_plots):
     ax0.text(x0+text_space,y0+(p+.5)*(yf-y0)/n_plots,titles[p],font_titles)
     ax0.text(xf-text_space,y0+(p+.5)*(yf-y0)/n_plots,units[p],font_units)
 
-manager = plt.get_current_fig_manager()
-manager.window.showMaximized()
+plt.show()
+
